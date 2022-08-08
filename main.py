@@ -32,7 +32,7 @@ def start(hamtaro_villain):
 def store_or_temple(weapon, hamtaro_villain):
     print_pause("Enter 1 to enter the 7/11.")
     print_pause("Enter 2 to go to the temple.")
-    print_pause("What path do you choose?")
+    print_pause("What do you choose?")
     player_input = validate_input("(Please enter 1 or 2.)", ["1", "2"])
     if player_input == "1":
         store(weapon, hamtaro_villain)
